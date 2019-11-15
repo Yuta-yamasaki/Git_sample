@@ -12,3 +12,9 @@ puts <<~text
 selext*users
 
 text
+
+users = ["saitou","taira","yamamoto"]
+
+users.each do |user|
+  puts user
+end
